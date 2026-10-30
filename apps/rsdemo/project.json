@@ -1,0 +1,13 @@
+{
+  "name": "rsdemo",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "prefix": "app",
+  "sourceRoot": "apps/rsdemo/src",
+  "tags": ["scope:shop"],
+  "targets": {
+    "serve": {
+      "dependsOn": ["api:serve"]
+    }
+  }
+}
